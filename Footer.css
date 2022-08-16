@@ -1,0 +1,45 @@
+footer {
+    background-color: whitesmoke;
+    margin-top: 20px;
+    font-family: 'Arial', Arial, serif;
+    color: #858585;
+    font-size: .8em;
+}
+
+footer .Container {
+    display: flex;
+}
+
+footer ul {
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    width: 26.6vw;
+}
+
+footer li{
+    margin: auto;
+    padding: 5px;
+}
+
+.Company {
+    text-align: center; 
+    border-top: 1px solid #858585;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Company img {
+    max-height: 50px;
+    margin: auto;
+}
+
+.Company p{ 
+    color: black;
+    margin: auto;
+    max-width: 200px;
+    float: inline-start;
+}
+

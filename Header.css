@@ -1,0 +1,78 @@
+header {
+    background-color: whitesmoke;
+    font-size: 1.1rem;
+    font-family: 'Arial', Arial, serif;
+    padding: 10px 0;
+}
+
+.Container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.Main_navigation {
+    text-align: center;
+    /* margin: 0 auto; */
+    width: 100%;
+    display: flex;
+}
+
+.Main_navigation > a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    min-width: max-content;
+    margin: auto;
+}
+
+.Main_navigation a:hover {
+    color: #0C9D9D;
+    transition: .3s;
+}
+
+header button{
+    border-radius: 0.5em;
+    border: 0;
+    margin-right: 0px;
+}
+
+header .phone {
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+    border: 1px solid black;
+    font-size: 1.1rem;
+    padding: .5rem;
+    max-width: 8rem;
+}
+
+header .appointment {
+    background-color: #082ca0;
+    max-width: 14rem;
+    padding: .6rem;
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+
+.appointment:hover {
+    background-color:#0C9D9D;
+    transition: .3s;
+}
+
+.Logo {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.Search {
+   max-width: 28px;
+}
+
+@media (max-width:1200px) {
+    .button-link {
+        display: none;
+    }
+
+    .Main_navigation {
+        margin: 0 auto;
+    }
+}

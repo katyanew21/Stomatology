@@ -1,0 +1,309 @@
+main {
+    margin: auto;
+    font-family: 'Arial', Arial, serif;
+}
+
+Main a {text-decoration: none;}
+
+Main input {
+    color: #858585;
+    text-align: center;
+    padding: 10px;
+    max-width: 170px;
+    font-size: 1.2em;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 2px white solid;
+}
+
+Main button {
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    background: none;
+    border-radius: 0.5em;
+    border: white solid 1px;
+}
+
+main button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.Motto {
+    background-color: #0C9D9D;
+    margin-top: 35px;
+    border-radius: 1em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Our-Motto {
+    /* background-color: azure; */
+    color: white;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.Our-Motto h2 {
+    font-size: 3em;
+    margin: auto;
+    padding: 20px;
+}
+
+.Our-Motto p{
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 20px;
+}
+
+.Doctor {
+    margin: auto;
+    width: 350px;
+}
+
+.Advantages {
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.Advantages ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Advantages li{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin: 10px;
+}
+
+.Advantages img {
+    max-height: 55px;
+    margin: 10px;
+}
+
+/* .Advantages img:hover {
+    max-width: 60px;
+    transition: 1s;
+} */
+
+.For-Family {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    text-align: center;
+}
+
+.For-Family h2 {
+    font-size: 3em;
+    font-weight: 100;
+    margin: auto;
+}
+
+.For-Family span {
+    color: #0C9D9D;
+}
+
+.For-Family p {
+    margin: auto;
+    padding: 20px;
+}
+
+.Main-Information {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Registration {
+    background-color: #0C9D9D;
+    /* background-image: url(Doctor2.webp); */
+
+    margin-right: 10px;
+    border-radius: 1em;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+
+.Registration h1 {
+    font-weight: 200;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    max-width: 350px;
+}
+
+.Registration p{
+    font-size: .8em;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.Registration img {
+    display: block;
+    max-height: 300px;
+}
+
+.Clients-information {
+    text-align: center;
+}
+
+.Your-Health {
+    background-color: #ababab;
+    border-radius: 1em;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+.Your-Health h1{
+    font-weight: 200;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    max-width: 350px;
+}
+
+.Your-Health p{
+    font-size: .8em;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.Catalog {
+    background-color: #082ca0;
+    text-align: center;
+    border-radius: 1em;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Catalog h1 {
+    text-decoration: none;
+    line-height: 2;
+    font-weight: 200;
+    background-position: center center;
+    color: white;
+    font-size: 5em;
+    margin: auto;
+}
+
+.Catalog p {
+    font-size: 0.8em;
+    margin: auto;
+    vertical-align: bottom;
+    padding-bottom: 30px;
+    width: 350px;
+}
+
+.Professional {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Professional h1 {
+    color: #0C9D9D;
+    margin: auto;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 3em;
+}
+
+.Professional p {
+    font-weight: 100;
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+}
+
+.Specialists ul {
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Specialists li{
+    vertical-align: middle;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.Specialists img {
+    height: 22vw;
+    border-radius: 1em;
+}
+
+.Specialists h3 {
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 100;
+    font-size: 1em;
+    min-height: 60px;
+}
+
+.Specialists p {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    line-height: 1.5;
+    color: #ababab;
+    font-size: 0.8em;
+}
+
+.Registration-bottom {
+    background-color: #0C9D9D ;
+    border-radius: 1em;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.Registration-bottom h1{
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.Registration-bottom p:last-child {
+    font-size: 10px;
+    max-width: 300px;
+    padding: 25px 0px;
+    margin: auto;
+}
+
+.Registration-bottom button {
+    background-color: #082ca0;
+    border: 1px solid #082ca0;
+    height: 50px;
+}
+
+.Registration-bottom button:hover {
+    opacity: .9;
+}
+
+.Registration-bottom input {
+    border: none;
+    outline: 0 none;
+    height: 50px;
+    min-width: 200px;
+}
